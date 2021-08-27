@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsDb</title>
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container py-3">
+        <!-- search section  -->
+        <section>
+            <div class="w-50 mx-auto text-center">
+                <h1 class="text-capitalize fw-bold">Search your favorite team!</h1>
+                <div class="d-flex mt-3">
+                    <input type="text" class="form-control" id="inputBox" placeholder="Enter Your Team Name">
+                    <button class="btn btn-danger" id="SearchData">Search</button>
+                </div>
+            </div>
+        </section>
+        <!-- single show img and section  -->
+        <section class="container my-3">
+            <div class="row">
+                <div id="showImg" class="col-10 col-md-12 mx-auto">
+                </div>
+            </div>
+        </section>
+        <!-- multi show section  -->
+        <div id="showMultiData" class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        </div>
+
+    </main>
+
+    <!-- js bootstrap and js file link  -->
+    <script src="./sportsDb.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
