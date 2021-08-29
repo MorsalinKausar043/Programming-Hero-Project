@@ -29,7 +29,7 @@ const getGoogleApi = (apiDataGet) => {
         div.innerHTML = `
             <div class="row my-3">
                 <div class="col-10 col-md-12 mx-auto mt-3 d-flex flex-column">
-                        <a href="${link}" class="text-primary m-0 h3 text-decoration-none">${htmlTitle}</a>
+                        <a href="${link}" target="_blank" class="text-primary m-0 h3 text-decoration-none">${htmlTitle}</a>
                         <p style="font-size: 12px;" href="${htmlFormattedUrl}" class="text-decoration-none text-success">${htmlFormattedUrl}</p>
                     <div class="row">
                         <div class="col-4 p-0">
