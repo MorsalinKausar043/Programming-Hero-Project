@@ -65,4 +65,4 @@ const showImgas = (teamsDatas) => {
         `;
         showImg.appendChild(div);
     })
-}
+};

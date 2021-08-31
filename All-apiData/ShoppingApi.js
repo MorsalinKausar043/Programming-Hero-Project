@@ -72,3 +72,6 @@ const showSingData = singleData => {
         showSingleData.appendChild(div);
     })
 }
+
+
+// const { gender, email, name: { title, first, last }, dob: { date, age }, location: { city, country }, phone, picture: { large }, login: { password } } = apiRandom;
